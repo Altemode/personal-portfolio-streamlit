@@ -8,15 +8,12 @@ from PIL import Image
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / 'assets' / 'cv.pdf'
-#profile_pic = current_dir / 'assets' / 'male-avatar.png'
 
 # --- DEFINE IMAGES --- 
 jump_image = Image.open('assets/jump.png')
 balance_image = Image.open('assets/balance.png')
 medory_image = Image.open('assets/medory.png')
 linkedin_image = Image.open('assets/linkedin_logo.png')
-
-
 
 
 # --- GENERAL SETTINGS ---
@@ -39,7 +36,6 @@ SOCIAL_MEDIA = {
 
 }
 
-
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
 # --- LOAD CSS, PDF & PROFIL PIC --- 
@@ -54,20 +50,13 @@ st.subheader('**I created this Streamlit page where I will present here, as a pe
 # --- SOCIAL LINKS ---
 st.write("#")
 
-# cols = st.columns(len(SOCIAL_MEDIA))
-# for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
-#     cols[index].write(f"[{platform}]({link})")
-
-
-
-
 social1,social2,social3 = st.columns(3)
 with social1:
     st.write("[Website](http://geth.gr)")
 with social2:
-    st.write("[Website](http://geth.gr)")
+    st.write("[Linkedin](www.linkedin.com/in/georgetheof)")
 with social3:
-    st.write("[Website](http://geth.gr)")
+    st.write("[GitHub](https://github.com/Altemode)")
 
 st.write("---")
 
@@ -107,9 +96,6 @@ def txt4(a, b, c):
 
 
 
-
-
-
 ##### 1o APP #####
 st.title("Jump Metrcis")
 st.image(jump_image, caption='Sunrise by the mountains')
@@ -139,10 +125,6 @@ st.write("#")
 txt3('**Packages used :**', '`altair`, `biosignalsnotebooks`, `numpy`, `pandas`, `plotly`, `streamlit`, `supabase`, `sympy`, `bokeh`')
 
 txt('[Streamlit](https://medory.streamlit.app)','[GitHub](https://medory.streamlit.app)')
-
-
-
-
 
 
 
@@ -181,9 +163,7 @@ txt('[Streamlit](https://balance.streamlit.app)','[GitHub](https://github.com/Al
 
 
 
-
-
-##### 1o APP #####
+##### 3o APP #####
 st.write("#")
 st.write("---")
 st.title("Medory")
