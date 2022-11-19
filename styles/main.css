@@ -1,0 +1,80 @@
+/* for the top  */
+.css-uc1cuc{
+    background-color:  rgb(190, 19, 125)
+}
+
+ul {
+    padding-left: 1.5rem;
+  }
+
+/* this is for st.title */
+h1 {
+    text-align:center;
+}
+
+h2 {
+    
+}
+
+/* style for st.subheader */
+h3{
+    text-align:center;
+    font-size:18px;
+    line-height: 1.4em;
+    padding-bottom: 0px;
+
+}
+
+h4 {
+    /* text-align:center; */
+}
+
+h5 {
+    /* text-align:center; */
+}
+
+h6 {
+    /* text-align:center; */
+}
+/* This is for 4 columns social Links block */
+
+
+.css-1uii870 a {
+    color:rgb(190, 19, 125);
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center !important;
+    margin:auto 0;
+    padding:auto 0;
+    
+}
+/* .css-1uii870 p {
+    text-align: justify;
+
+} */
+
+
+/* style for st.write */
+p{
+    text-align: justify;    
+
+}
+
+
+img {
+    /* margin-left: 17.2rem; */
+    border:1px solid rgb(176 178 186);
+    background-color: :aqua;
+}
+
+ #MainMenu {
+    visibility: hidden;
+}
+/*
+footer {
+    visibility: hidden;
+}
+header {
+    visibility: hidden;
+} */
