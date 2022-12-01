@@ -32,7 +32,7 @@ EMAIL = "send@geth.gr"
 SOCIAL_MEDIA = {
     "Website": "https://geth.gr",
     "LinkedIn": "www.linkedin.com/in/georgetheof",
-    "GitHub": "https://github.com/Altemode",
+    "GitHub": "https://github.com/gethgr",
 
 }
 
