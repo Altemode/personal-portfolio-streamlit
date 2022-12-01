@@ -56,7 +56,7 @@ with social1:
 with social2:
     st.write("[Linkedin](www.linkedin.com/in/georgetheof)")
 with social3:
-    st.write("[GitHub](https://github.com/Altemode)")
+    st.write("[GitHub](https://github.com/gethgr)")
 
 st.write("---")
 
