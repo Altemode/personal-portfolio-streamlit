@@ -18,7 +18,7 @@ linkedin_image = Image.open('assets/linkedin_logo.png')
 
 # --- GENERAL SETTINGS ---
 
-PAGE_TITLE = "Personal Site | CV | George"
+PAGE_TITLE = "Personal Streamlit App Site"
 PAGE_ICON = 'random:'
 NAME = "George"
 DESCRIPTION = """
